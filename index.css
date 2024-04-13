@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#texto-menu-superior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    color: aliceblue;
+    background-image: url(/imagens/fundo-menu-superior.svg);
+}
+
+#menu-informacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: auto;
+}
+
+.icone{
+   margin: 50px 0px 50px 100px;
+   padding: 25px;
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: auto;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulo-video{
+    color: #247ba0;
+    margin-top:50px ;
+
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247ba0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.Card{
+    margin-left: 50px;
+
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #eaece5;
+    margin: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247ba0;
+    height: 40px;
+    width: 250px;
+    color: #eaece5;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2ea0d1;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0 15px 20px #0510304f;
+    transition-duration: 0.5s;
+}
+
+
+
+
